@@ -1,3 +1,25 @@
+## v7.0004 — April 2, 2026 (CURRENT CANONICAL)
+Full Oracle integration complete. All Phase 0 gaps closed.
+- Bayesian prior equation + Friston F=E_q variational free energy math (Section 3.4)
+- val_bpb → Bits per Joule formal bridge (Section 3.2)
+- Axiom interaction matrix 8×8 (Section 2.2)
+- Neurodivergent epistemology / Blood Signature (Section 3)
+- Friston multilevel selection extension (Section 9)
+- MAIM/MAD Schelling (1960) formal citation
+- Rights of Nature legal corpus: Ecuador, NZ, Bolivia, EU 2024
+- arXiv:2503.05628 cited
+- Shadow AI orchestration section
+- Expert scrutiny panel
+- References: 30+
+
+## v7.0003 — April 2, 2026
+GPD integration, val_bpb bridge scaffolded, axiom matrix, Blood Signature, Friston comparison, MCP citations corrected.
+
+## v7.0002 — March 2026
+Layer 0 Foundation — base manuscript.
+
+---
+
 # STIM White Paper v7.0006 Changelog
 
 **Version:** v7.0006
