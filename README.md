@@ -92,9 +92,8 @@ Enterprise: [Veraculum AOS](https://veraculum.ai) | Community: [stim.bio](https:
 ## Author
 
 **George Steward**
-Environmental Scientist | CW2 (Ret.) 7th Special Forces Group (Airborne)
-Founder, [Arboracle](https://arboracle.app) + [Veraculum](https://veraculum.ai)
-Clay Hunt Fellow, Team Rubicon
+Ecologist | CW2 (Ret.) 7th Special Forces Group (Airborne)
+Founder, [Soil Grower](http://soilgrower.com) + [Arboracle](https://arboracle.app) + [Veraculum](https://veraculum.ai)
 george@soilgrower.com
 
 *"The roots are deep. The signals are clear."*
