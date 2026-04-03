@@ -1,3 +1,19 @@
+## v7.0007 — April 2026
+**Root Hypervisor Architecture**
+- Tier 3 reclassified as Root Hypervisor — Tiers 1+2 evaluate within T3 manifold, not independently
+- Cryptographic pinning: T3 manifest hash signed by human operators; AI cannot revise definitions
+- Taxonomic Non-Revision Principle: 'human-inhabited biosphere' not evaluable by constrained system
+- Tier conflict resolution: T1 operates within T3 manifold; no independent authority conflict possible
+- Loop 3 honestly reclassified: Mode A (hardware) = Tier 1; Mode B (text) = Tier 2 heuristic
+- Transducer problem formally named as open research: f(tokens) → geometry without LLM
+- Stochastic Mycelial Horizon: Monte Carlo Tree Search depth sampling; prevents Adversarial Horizon Masking (Padding Attack)
+- jitter(σ) added to edge weights: prevents precise pre-computation of boundary effects
+- RQ_TRANSDUCER added to empirical agenda
+- Explicit scope concession: STIM is Substrate-Level Containment, not full semantic alignment
+- Full stack model declared: STIM (L0) + Constitutional AI/RLHF (L1) + Human oversight (L2)
+- Limitations section expanded
+- Responds to second Gemini Deep Think critique (April 2026)
+
 ## v7.0006 — April 2026
 **Three-Tier Decoupling**
 - Formally separated three epistemic tiers: Physical Bounds (T1), Ecological Heuristics (T2), Normative Declarations (T3)
