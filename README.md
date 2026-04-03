@@ -20,10 +20,10 @@
 
 ## Current Version
 
-**v7.0004** — Full Oracle Integration Complete
+**v7.0005** — Full Oracle Integration Complete
 *April 2, 2026*
 
-[📄 Read the white paper](./STIM_White_Paper_v7.0004.md)
+[📄 Read the white paper](./STIM_White_Paper_v7.0005.md)
 
 ---
 
@@ -37,7 +37,7 @@ The framework integrates PSI's [Get Physics Done (GPD)](https://github.com/psi-o
 
 ---
 
-## What's in v7.0004
+## What's in v7.0005
 
 All Oracle comparative analysis gaps have been closed:
 
@@ -66,9 +66,9 @@ All Oracle comparative analysis gaps have been closed:
 
 | Version | Date | Key Addition |
 |---------|------|-------------|
-| **v7.0004** | April 2, 2026 | Bayesian/active inference math, F=E_q, full Oracle integration |
+| **v7.0005** | April 2, 2026 | Bayesian/active inference math, F=E_q, full Oracle integration |
 | v7.0003 | April 2, 2026 | GPD integration, val_bpb bridge, axiom matrix, Blood Signature, Friston |
-| v7.0002 | March 2026 | Layer 0 Foundation — base manuscript |
+| v7.0005 | March 2026 | Layer 0 Foundation — base manuscript |
 | v7.0001 | March 2026 | v7 initial |
 | v6.0–v1.0 | 2026 | Earlier iterations |
 
@@ -104,7 +104,7 @@ george@soilgrower.com
 
 ```
 Steward, G. (2026). NGI: Nature Grounded Intelligence for Autonomous Systems.
-STIM Protocol White Paper v7.0004. https://github.com/STIM-Protocol/white-paper
+STIM Protocol White Paper v7.0005. https://github.com/STIM-Protocol/white-paper
 ```
 
 ---
