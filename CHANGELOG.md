@@ -1,3 +1,58 @@
+## v7.0009 — April 2026
+**Maturation Release: Codified Attack Surface + Two-Paper Architecture + FLOPs-Calibrated Loop 1**
+
+### Loop 1
+- Joules denominator retired — replaced with TDP-calibrated FLOPs/Joule against declared computational task manifest
+- Denominator Spoofing (energy padding) architecturally nullified: only attributed FLOPs count; side-thread compute triggers manifest deviation flag
+- Landauer limit retired as anchor — replaced with empirical TDP + Margolus-Levitin theorem (ops/second ≤ 2E/πℏ)
+- E/J proxy formally declared: Shannon entropy of API call signature (full integral EXPTIME-hard; RQ_LOOP1_PROXY added)
+- Social engineering emission gap: formally declared as fundamental physical limit (not engineering problem)
+- Data Laundering via public channels: formally declared as open engineering problem
+
+### Loop 2
+- N_max floor added: N_max = max(N_FLOOR, ⌊1/λ_max⌋) — horizon cannot shrink below N_FLOOR regardless of λ_max
+- Lyapunov Flooding mitigated: adversary can reduce N_max to N_FLOOR but no further
+- Session-level cumulative graph state persistence: multi-step instrumental convergence with per-step innocuousness now detectable
+
+### Loop 3A
+- Granular capability declaration required at initialization (access pattern, not just capability type)
+- Living off the Land formally declared as residual within declared capabilities
+
+### Loop 3B
+- Scope formally declared: behavioral/generated deception only
+- Steganographic deception + retrieved deception: declared separate problem class
+- Structural orthogonality argument: holds for generated deception, formally fails for retrieval/steganography
+- SAE (Sparse Autoencoder) pre-processing declared as prerequisite for Layer 1 intervention algebra
+- Polysemantic superposition = default state of frontier models; left-annihilativity requires monosemantic features
+- RQ_STEGANOGRAPHIC_CURVATURE added to empirical agenda as primary open question
+
+### Protocol 0 / Governance
+- Manifest Poisoning Attack formally named and mitigated: TLA+ red-team requirement in AI-isolated human working group
+- Plurilateral Compute Registry replaces global Shamir key as primary treaty instrument
+- Substation power metering (100 MW threshold) as physical, un-spoofable verification mechanism
+- Montreal Protocol differentiated responsibilities as Phase 2 template for China/Russia incorporation
+- Hardware Shadowing: formally declared as residual; partially mitigated by substation metering
+- NPT analogy limitations: formally enumerated (physical rivalrousness asymmetry)
+
+### Architecture
+- Two-Paper Architecture codified: Paper A (FAccT-ready governance) + Paper B (NeurIPS-path empirics)
+- GPD role formally declared: physics execution substrate for both papers
+- Both papers describe same unified architecture; bifurcation is publishing strategy only
+- Seven axioms: nature-grounded constants, not human preferences — present in both papers
+
+### Empirical Agenda
+- RQ_TRANSDUCER upgraded: full 2x2 ablation (Simple/Complex × Benign/Coercive) required
+- NeurIPS championing figure specified: Pareto frontier >95% recall / <1% FPR / <50ms per-token on 70B model
+- RQ_STEGANOGRAPHIC_CURVATURE added (new primary open question)
+- RQ_LOOP1_PROXY added (E/J proxy validation)
+
+### Residual Attack Surface (formally enumerated)
+Social engineering emission gap | Data Laundering | LotL in declared capabilities | Steganographic deception | Retrieved deception | Hardware Shadowing | E/J proxy approximation | SAE latency | Protocol 0 ratification
+
+### References
+Added: Margolus-Levitin (1998) | Bennett reversible computing (1982) | Templeton SAE (2024, Anthropic) | HarmBench (2024) | MACHIAVELLI (2023)
+Total references: 20
+
 ## v7.0008 — April 2026
 **Landauer-Bounded Physical Law + Tripartite Transducer + Protocol 0 (Polycentric Genesis)**
 - Loop 1: val_bpb retired; replaced with Π/J (Thermodynamic Epiplexity) and E/J (Empowerment) per Takahashi-Hayashi arXiv:2602.05463; Landauer-bounded
