@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-The Oracle analysis does not contradict or alter the core STIM model. The eight axioms, the pre-inference constraint mechanism, and the layered architecture (STIM as Layer 0 beneath CAI/RLHF) remain intact. What the Oracle analysis provides is **structural depth, academic rigor, and defensive architecture** that the stem white paper currently lacks for arXiv-grade publication. These are enhancements, not revisions.
+The Oracle analysis does not contradict or alter the core STIM model. The seven axioms, the pre-inference constraint mechanism, and the layered architecture (STIM as Layer 0 beneath CAI/RLHF) remain intact. What the Oracle analysis provides is **structural depth, academic rigor, and defensive architecture** that the stem white paper currently lacks for arXiv-grade publication. These are enhancements, not revisions.
 
 ---
 
@@ -76,7 +76,7 @@ The Oracle analysis does not contradict or alter the core STIM model. The eight 
 | Carrying capacity critique | Absent | Present (Lovelock, Carson) | **Strong addition** |
 | Indigenous Ecological Knowledge | Absent | Present (Ostrom) | **Differentiator for broad adoption** |
 
-**Assessment:** This section is arguably the most important addition for arXiv credibility. The stem white paper presents the eight axioms as self-evident. The Oracle shows what happens when those axioms are subjected to blistering critique by the best minds in ecology -- and survive. This is how academic papers earn trust. The expert panel should be integrated as a validation section.
+**Assessment:** This section is arguably the most important addition for arXiv credibility. The stem white paper presents the seven axioms as self-evident. The Oracle shows what happens when those axioms are subjected to blistering critique by the best minds in ecology -- and survive. This is how academic papers earn trust. The expert panel should be integrated as a validation section.
 
 **Key insight from the expert panel:** The shift from "human survival" to "ecological flourishing" as the core optimization metric. Leopold and Kimmerer's critique that the original framing was still anthropocentric is correct, and the response (intrinsic value of non-human life) strengthens the framework.
 
@@ -172,7 +172,7 @@ The Oracle analysis does not contradict or alter the core STIM model. The eight 
 
 ## What Does NOT Change
 
-- The eight axioms remain exactly as they are
+- The seven axioms remain exactly as they are
 - The pre-inference constraint architecture remains the core mechanism
 - The mycelial knowledge graph concept remains
 - The layered approach (STIM beneath CAI/RLHF) remains
