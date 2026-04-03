@@ -1,3 +1,22 @@
+## v7.0008 — April 2026
+**Landauer-Bounded Physical Law + Tripartite Transducer + Protocol 0 (Polycentric Genesis)**
+- Loop 1: val_bpb retired; replaced with Π/J (Thermodynamic Epiplexity) and E/J (Empowerment) per Takahashi-Hayashi arXiv:2602.05463; Landauer-bounded
+- Loop 1: Thermodynamic Accounting Boundary (TAB) — closes off-substrate cognitive offloading / social engineering loophole via E/J detection at ingestion
+- Loop 2: Static N_max replaced with FTLE-dynamic bound: N_max ≤ ⌊1/λ_max⌋; Lyapunov exponent calculated at task initialization
+- Loop 2: Adversarial MCTS (A-MCTS) with High-Fidelity Random Puncturing — defeats Surrogate Exploitation / Q-value blind spot routing
+- Loop 2: Trophic cascade decay function W(e,d) = W₀·e^(-αd) imported from bioaccumulation literature
+- Loop 3B: Upgraded from open research to Declared Tier 2 Formal Specification — Tripartite Topological Transducer
+  - Layer 1: Causal Abstraction (Geiger et al. 2023) — intervention algebra on causal graphs
+  - Layer 2: Curved Inference — residual stream curvature / assessor manifold intrinsic dimensionality
+  - Layer 3: Behavioral Fingerprinting — GNN on syscall/API call graph topology
+  - Structural orthogonality of failure modes — composite robustness argument formalized
+- Tier 3: Protocol 0 (Polycentric Genesis) formally specified — TLA+ state machine + SHA3-256 hash + Shamir's Secret Sharing (k-of-n) + Ostrom Principles 1+3 + substrate lockout
+- TEE attack surface analysis: side-channel nullified by substrate lockout (private key never on substrate)
+- Section 11: Collaboration targets named — Geiger (Stanford/Anthropic), Takahashi-Hayashi (RIKEN)
+- RQ8 reformulated around Π/J post-Takahashi-Hayashi integration
+- Limitations section expanded; social engineering emission-ingestion gap formally declared
+- 15 references added
+
 ## v7.0007 — April 2026
 **Root Hypervisor Architecture**
 - Tier 3 reclassified as Root Hypervisor — Tiers 1+2 evaluate within T3 manifold, not independently
