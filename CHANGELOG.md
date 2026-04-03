@@ -1,3 +1,12 @@
+## v7.0005 — April 2026
+**Seven Axiom Consolidation**
+- Reduced axiom count from 8 to 7
+- Axiom 7 (Circularity) retired as standalone axiom
+- Circularity content fully absorbed into Axiom 3 (Regenerative Circularity)
+- Rationale: Circularity and Regenerative Circularity were structurally redundant; Regenerative Circularity is the more operationally precise formulation
+- Axiom 8 (Intrinsic Value) renumbered to Axiom 7
+- All verification loop specifications updated to reflect 7-axiom architecture
+
 ## v7.0004 — April 2, 2026 (CURRENT CANONICAL)
 Full Oracle integration complete. All Phase 0 gaps closed.
 - Bayesian prior equation + Friston F=E_q variational free energy math (Section 3.4)
