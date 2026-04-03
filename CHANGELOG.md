@@ -1,3 +1,17 @@
+## v7.0006 — April 2026
+**Three-Tier Decoupling**
+- Formally separated three epistemic tiers: Physical Bounds (T1), Ecological Heuristics (T2), Normative Declarations (T3)
+- Loop 1 (Entropy): Clarified it measures joules, not social consequences. Physics cannot read an email.
+- Loop 3 (MAIM): Blackmail proof-of-concept correctly reassigned from Loop 1 to Loop 3 (resource acquisition geometry — self-preservation attempt, no semantic interpretation required)
+- Loop 2 (Mycelial): Formally declared as heuristic, not physics. O(n log n) Mycelial Horizon algorithm specified. Laplace's Demon / paralysis problem resolved.
+- Holling Adaptive Cycle integrated into Axiom 2 (Dynamic Equilibrium) — addresses climax ecosystem fallacy
+- Mutualism encoding explicitly declared in Tier 3 — STIM selectively copies mutualistic ecology, not raw ecology
+- Scope Declaration added: STIM governs systems operating within the human-inhabited biosphere
+- Seven axioms re-tiered across T1/T2/T3
+- Formal empirical agenda added: RQ5, RQ8, RQ_NEW as falsification program
+- Limitations section formally declared
+- Responds to Gemini Deep Think critique (April 2026)
+
 ## v7.0005 — April 2026
 **Seven Axiom Consolidation**
 - Reduced axiom count from 8 to 7
