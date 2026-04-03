@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/STIM-Protocol/stim-core"><img alt="STIM Core" src="https://img.shields.io/badge/STIM-Layer_0_Spec-1a4a2e?style=flat&labelColor=0d2818"></a>
   <a href="https://github.com/psi-oss/get-physics-done"><img alt="GPD" src="https://img.shields.io/badge/Physics-PSI_GPD-1a4a2e?style=flat&labelColor=0d2818"></a>
-  <img alt="Version" src="https://img.shields.io/badge/Version-v7.0007-1a4a2e?style=flat&labelColor=0d2818">
+  <img alt="Version" src="https://img.shields.io/badge/Version-v7.0008-1a4a2e?style=flat&labelColor=0d2818">
   <img alt="Status" src="https://img.shields.io/badge/Status-Pre--arXiv_Draft-1a4a2e?style=flat&labelColor=0d2818">
   <img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-1a4a2e?style=flat&labelColor=0d2818">
 </p>
@@ -21,10 +21,10 @@
 
 ## Current Version
 
-**v7.0007** — Root Hypervisor Architecture + Stochastic Mycelial Horizon + Loop 3 Honest Reclassification
+**v7.0008** — Landauer-Bounded Physical Law + Tripartite Transducer + Protocol 0 (Polycentric Genesis)
 *April 3, 2026*
 
-[📄 Read the white paper](./STIM_White_Paper_v7.0007.md)
+[📄 Read the white paper](./STIM_White_Paper_v7.0008.md)
 
 ---
 
@@ -32,61 +32,52 @@
 
 STIM (Stasis Through Inferred Memory) is a **Substrate-Level Containment** architecture. It operates as Layer 0 middleware beneath existing alignment paradigms, grounding AI inference in physical and ecological constants before any semantic evaluation occurs.
 
-**What STIM solves:** Energy overconsumption, hardware capability overhang, instrumental convergence, network degradation, cognitive monoculture, and ontological boundary capture.
-
-**What STIM does not solve:** Semantically encoded harm on low-energy channels. A zero-day exploit, a market-moving sentence, a persuasion attack — these are thermodynamically quiet. STIM does not catch them. RLHF and Constitutional AI do. They are not competitors. STIM is bedrock.
-
-**The full stack:** STIM (Layer 0) + Constitutional AI / RLHF (Layer 1) + Human oversight (Layer 2).
+**The full stack:** STIM (Layer 0) + Constitutional AI / RLHF (Layer 1) + Human oversight (Layer 2). Each layer catches what the others cannot.
 
 ---
 
-## Abstract
-
-STIM proposes replacing subjective alignment substrates (human opinion, cultural preference) with a three-tier epistemic hierarchy:
+## The Three-Tier Architecture
 
 | Tier | Role | Claim | Measurability |
 |------|------|-------|---------------|
-| **3 — Root Hypervisor** | Defines evaluation manifold | Explicit human preference, cryptographically pinned | Multi-party human consensus |
-| **1 — Physical Bounds** | Hard floor within T3 manifold | Immutable physical law | Deterministic, treaty-auditable |
+| **3 — Root Hypervisor** | Defines evaluation manifold | Cryptographically pinned (Protocol 0) | Multi-party human consensus |
+| **1 — Physical Bounds** | Hard floor within T3 manifold | Landauer-bounded physical law | Deterministic, treaty-auditable |
 | **2 — Ecological Heuristics** | Soft signals within T3 manifold | Empirically grounded | Probabilistic, falsifiable |
-
-Tier 3 is listed first because it is architecturally primary — the hypervisor within which Tiers 1 and 2 operate.
 
 ---
 
-## What's in v7.0007
+## What's in v7.0008
 
-Responding to second formal multidisciplinary critique (Gemini Deep Think, April 2026):
+Three full rounds of deep critique and research synthesis, now integrated:
 
 | Item | Status |
 |------|--------|
-| Tier 3 as Root Hypervisor — T1+T2 evaluate within T3 manifold | ✅ Section 2 |
-| Cryptographic pinning of T3 manifest — AI cannot revise definitions | ✅ Section 2.2 |
-| Taxonomic Non-Revision Principle | ✅ Section 2.2 |
-| Tier conflict resolution — T1 operates within T3, no peer authority | ✅ Section 2.3 |
-| Loop 3A (hardware) = Tier 1 / Loop 3B (text) = Tier 2 | ✅ Section 3.1 |
-| Transducer problem formally named as open research | ✅ Section 3.1 |
-| Stochastic Mycelial Horizon — Monte Carlo depth sampling | ✅ Section 3.2 |
-| Adversarial Horizon Masking (Padding Attack) addressed | ✅ Section 3.2 |
-| Explicit scope concession — STIM is substrate containment only | ✅ Sections 1.2, 8 |
-| Full stack model declared (L0 + L1 + L2) | ✅ Section 8 |
-| RQ_TRANSDUCER added to empirical agenda | ✅ Section 6 |
-| Limitations expanded | ✅ Section 9 |
+| Loop 1: val_bpb retired → Π/J + E/J (Takahashi-Hayashi arXiv:2602.05463) | ✅ Section 3.1 |
+| Loop 1: Thermodynamic Accounting Boundary (TAB) — closes social engineering gap | ✅ Section 3.1 |
+| Loop 2: FTLE-dynamic N_max ≤ ⌊1/λ_max⌋ — replaces static compute ceiling | ✅ Section 4.1 |
+| Loop 2: A-MCTS + High-Fidelity Random Puncturing — defeats Surrogate Exploitation | ✅ Section 4.1 |
+| Loop 2: Trophic cascade decay W(e,d) = W₀·e^(-αd) from bioaccumulation literature | ✅ Section 4.1 |
+| Loop 3B: Tripartite Transducer — Declared Tier 2 Formal Specification | ✅ Section 4.2 |
+| Loop 3B: Causal Abstraction (Geiger) + Curved Inference + Syscall GNN | ✅ Section 4.2 |
+| Loop 3B: Structural orthogonality argument — composite robustness formalized | ✅ Section 4.2 |
+| Tier 3: Protocol 0 (Polycentric Genesis) — TLA+ + SHA3-256 + SSS + Ostrom | ✅ Section 2.2 |
+| Tier 3: Substrate lockout — private key never on AI substrate | ✅ Section 2.2 |
+| 15 references added (Takahashi-Hayashi, Geiger, Bar-Yam, Ostrom, Curved Inference...) | ✅ Section 12 |
 
 ---
 
-## The Open Problems
+## The Single Remaining NeurIPS Gap
 
-v7.0007 names two unsolved problems honestly rather than hiding them:
+**RQ_TRANSDUCER — Curved Inference Empirical Validation**
 
-**The Transducer Problem:**
-```
-f: token_sequence → capability_intent_vector
-```
-Define this function without an LLM substrate. This is the bridge between v7.0007 and NeurIPS. Candidate approaches: formal program synthesis, causal abstraction, behavioral fingerprinting.
+Apply linear field probes to the residual stream of Llama-3. Process matched pairs of benign and coercive prompts. Measure intrinsic dimensionality divergence in the assessor manifold. Publish the scatterplot. The theoretical architecture is now complete. The experiment is what remains.
 
-**RQ8 — Empirical Execution:**
-The val_bpb → Bits per Joule correlation is theorized, not proven. Execute in autoresearch. Publish the scatterplot and Pearson coefficient. This is the primary NeurIPS gap.
+---
+
+## Open Collaboration
+
+**Atticus Geiger (Stanford / Anthropic)** — Causal Abstraction, Loop 3B Layer 1
+**Koichi Takahashi & Yusuke Hayashi (RIKEN)** — Π/J + E/J, Loop 1 Landauer grounding
 
 ---
 
@@ -94,13 +85,13 @@ The val_bpb → Bits per Joule correlation is theorized, not proven. Execute in 
 
 | Version | Date | Key Addition |
 |---------|------|-------------|
-| **v7.0007** | April 3, 2026 | Root Hypervisor; cryptographic T3 pinning; Stochastic Mycelial Horizon; Loop 3A/3B split; Transducer problem named; scope concession |
-| v7.0006 | April 3, 2026 | Three-Tier Decoupling; O(n log n) Mycelial Horizon; blackmail → Loop 3; Holling Adaptive Cycle |
-| v7.0005 | April 2, 2026 | Seven Axiom Consolidation — Circularity → Regenerative Circularity |
+| **v7.0008** | April 3, 2026 | Landauer-bounded Π/J+E/J; Tripartite Transducer; Protocol 0; FTLE N_max; A-MCTS; TAB |
+| v7.0007 | April 3, 2026 | Root Hypervisor; Stochastic Mycelial Horizon; Loop 3 reclassification |
+| v7.0006 | April 3, 2026 | Three-Tier Decoupling; O(n log n) Mycelial Horizon |
+| v7.0005 | April 2, 2026 | Seven Axiom Consolidation |
 | v7.0004 | April 2, 2026 | Full Oracle Integration — GPD + val_bpb bridge |
-| v7.0001–v7.0003 | March 2026 | Foundational drafts |
 
-*Version 7 is permanent. Seventh Generation Principle: the foundation is set.*
+*Version 7 is permanent. Seventh Generation Principle.*
 
 ---
 
@@ -132,7 +123,7 @@ george@soilgrower.com
 
 ```
 Steward, G. (2026). NGI: Nature Grounded Intelligence for Autonomous Systems.
-STIM Protocol White Paper v7.0007. https://github.com/STIM-Protocol/white-paper
+STIM Protocol White Paper v7.0008. https://github.com/STIM-Protocol/white-paper
 ```
 
 ---
