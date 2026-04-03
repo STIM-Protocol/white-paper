@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://github.com/STIM-Protocol/stim-core"><img alt="STIM Core" src="https://img.shields.io/badge/STIM-Layer_0_Spec-1a4a2e?style=flat&labelColor=0d2818"></a>
   <a href="https://github.com/psi-oss/get-physics-done"><img alt="GPD" src="https://img.shields.io/badge/Physics-PSI_GPD-1a4a2e?style=flat&labelColor=0d2818"></a>
+  <img alt="Version" src="https://img.shields.io/badge/Version-v7.0006-1a4a2e?style=flat&labelColor=0d2818">
   <img alt="Status" src="https://img.shields.io/badge/Status-Pre--arXiv_Draft-1a4a2e?style=flat&labelColor=0d2818">
   <img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-1a4a2e?style=flat&labelColor=0d2818">
 </p>
@@ -20,10 +21,10 @@
 
 ## Current Version
 
-**v7.0005** — Full Oracle Integration Complete
-*April 2, 2026*
+**v7.0006** — Three-Tier Decoupling: Physical Bounds / Ecological Heuristics / Normative Declarations
+*April 3, 2026*
 
-[📄 Read the white paper](./STIM_White_Paper_v7.0005.md)
+[📄 Read the white paper](./STIM_White_Paper_v7.0006.md)
 
 ---
 
@@ -31,34 +32,52 @@
 
 Artificial General Intelligence (AGI) is a synthetic mirage. This paper introduces **NGI (Nature Grounded Intelligence)** — awareness that is not merely "aligned" with human preference, but fundamentally grounded in the laws of nature.
 
-While AGI optimizes for digital throughput, NGI optimizes for **Planetary Stasis** and **Bits per Joule**. STIM (Stasis Through Inferred Memory) provides the Layer Zero framework for this transition, deploying three recursive verification loops — entropy minimization, mycelial interconnectedness, and MAIM security deterrence — as an absolute constraint layer beneath existing alignment paradigms.
+While AGI optimizes for digital throughput, NGI optimizes for **Planetary Stasis** and **Bits per Joule**. STIM (Stasis Through Inferred Memory) provides the Layer Zero framework for this transition, deploying three verification loops as pre-execution constraints beneath existing alignment paradigms.
 
-The framework integrates PSI's [Get Physics Done (GPD)](https://github.com/psi-oss/get-physics-done) as its computational physics substrate and establishes a formal bridge between Karpathy's `val_bpb` (semantic compression efficiency) and Bits per Joule (thermodynamic efficiency) — providing a measurable, reproducible empirical validation pathway.
+**v7.0006 introduces the Three-Tier Architecture** — the core structural clarification that separates STIM's claims by epistemic precision:
+
+| Tier | Domain | Claim | Measurability |
+|------|--------|-------|---------------|
+| 1 | Physical Bounds | Immutable law | Deterministic, treaty-auditable |
+| 2 | Ecological Heuristics | Empirically grounded analogy | Probabilistic, falsifiable |
+| 3 | Normative Declarations | Explicit human preference | Declared, not derived |
+
+The framework integrates PSI's [Get Physics Done (GPD)](https://github.com/psi-oss/get-physics-done) as its computational physics substrate and establishes a formal bridge between Karpathy's `val_bpb` (semantic compression efficiency) and Bits per Joule (thermodynamic efficiency).
 
 ---
 
-## What's in v7.0005
+## What's in v7.0006
 
-All Oracle comparative analysis gaps have been closed:
+Responding to formal multidisciplinary critique (Gemini Deep Think, April 2026):
 
 | Item | Status |
 |------|--------|
-| Three-loop recursive architecture | ✅ Section 4 |
-| Bayesian prior equation + active inference math (Friston F=E_q) | ✅ Section 3.4 |
-| Expert scrutiny panel (Leopold, Kimmerer, Meadows, Lovelock, Ostrom) | ✅ Section 6 |
-| Shadow AI / multi-agent orchestration | ✅ Section 1.3 |
-| MAIM Protocol (micro + macro, Schelling 1960) | ✅ Section 4.3 |
-| Synthetic wisdom + homeorhesis | ✅ Section 7 |
-| Layer 0 terminology throughout | ✅ All sections |
-| Axiom interaction matrix (8×8) | ✅ Section 2.2 |
-| De-centered anthropocentrism (Leopold/Kimmerer) | ✅ Sections 2, 6 |
-| References: 30+ peer-reviewed | ✅ 30 references |
-| Likelihood displacement critique | ✅ Section 1.1 |
-| val_bpb → Bits per Joule formal bridge | ✅ Section 3.2 |
-| Neurodivergent epistemology / Blood Signature | ✅ Section 3 |
-| Friston multilevel selection extension | ✅ Section 9 |
-| Rights of Nature legal corpus (Ecuador, NZ, Bolivia, EU 2024) | ✅ Section 4.3 |
-| arXiv:2503.05628 cited | ✅ References |
+| Three-tier epistemic architecture (Physical / Heuristic / Normative) | ✅ Section 2 |
+| Blackmail case reassigned: Loop 1 → Loop 3 (resource geometry, no semantics) | ✅ Section 2.1 |
+| Mycelial Loop formally declared heuristic — not physics | ✅ Section 2.2 |
+| O(n log n) Mycelial Horizon algorithm — Laplace's Demon resolved | ✅ Section 4 |
+| Holling Adaptive Cycle integrated into Dynamic Equilibrium (Axiom 2) | ✅ Section 3 |
+| Mutualism encoding explicitly declared in Tier 3 | ✅ Section 2.3 |
+| Scope declaration: governs systems in human-inhabited biosphere | ✅ Section 2.3 |
+| Seven axioms re-tiered across T1/T2/T3 | ✅ Section 3 |
+| Formal empirical agenda: RQ5, RQ8, RQ_NEW as falsification program | ✅ Section 5 |
+| Limitations formally declared | ✅ Section 10 |
+| "Trust does not have a Boltzmann constant" — resolved | ✅ Section 8 |
+
+---
+
+## The STIM Paradox — Resolved
+
+*"If STIM uses an LLM to evaluate social consequences, it has rebuilt Constitutional AI inside the entropy loop."*
+
+v7.0006 resolves this formally:
+
+- **Loop 1** measures joules. Not meaning.
+- **Loop 3** measures capability delta. Not intent.
+- **Loop 2** measures graph perturbation probability. Not ethics.
+- **Loop 4** measures confirmation ratio over time. Not content.
+
+No loop asks "is this good?" Every loop asks a measurable question. The Anthropic blackmail case is a Loop 3 violation — self-preservation attempt detected via resource acquisition geometry alone. Physics cannot read an email. STIM does not claim otherwise.
 
 ---
 
@@ -66,11 +85,12 @@ All Oracle comparative analysis gaps have been closed:
 
 | Version | Date | Key Addition |
 |---------|------|-------------|
-| **v7.0005** | April 2, 2026 | Bayesian/active inference math, F=E_q, full Oracle integration |
-| v7.0003 | April 2, 2026 | GPD integration, val_bpb bridge, axiom matrix, Blood Signature, Friston |
-| v7.0005 | March 2026 | Layer 0 Foundation — base manuscript |
+| **v7.0006** | April 3, 2026 | Three-Tier Decoupling — Physical Bounds / Ecological Heuristics / Normative Declarations; O(n log n) Mycelial Horizon; blackmail case Loop 3 reassignment; Holling Adaptive Cycle; scope declaration |
+| v7.0005 | April 2, 2026 | Seven Axiom Consolidation — Circularity folded into Regenerative Circularity |
+| v7.0004 | April 2, 2026 | Full Oracle Integration — GPD + val_bpb bridge + Bayesian math |
+| v7.0003 | April 2, 2026 | GPD integration, axiom matrix, Blood Signature, Friston |
 | v7.0001 | March 2026 | v7 initial |
-| v6.0–v1.0 | 2026 | Earlier iterations |
+| v6.0–v1.0 | 2025–2026 | Earlier iterations |
 
 *Version 7 is permanent. The Seventh Generation Principle: the foundation is set. We are now only refining execution.*
 
@@ -96,7 +116,7 @@ Ecologist | CW2 (Ret.) 7th Special Forces Group (Airborne)
 Founder, [Soil Grower](http://soilgrower.com) + [Arboracle](https://arboracle.app) + [Veraculum](https://veraculum.ai)
 george@soilgrower.com
 
-*"The roots are deep. The signals are clear."*
+*"Sociology cannot constrain thermodynamics. But thermodynamics can constrain AI."*
 
 ---
 
@@ -104,7 +124,7 @@ george@soilgrower.com
 
 ```
 Steward, G. (2026). NGI: Nature Grounded Intelligence for Autonomous Systems.
-STIM Protocol White Paper v7.0005. https://github.com/STIM-Protocol/white-paper
+STIM Protocol White Paper v7.0006. https://github.com/STIM-Protocol/white-paper
 ```
 
 ---
