@@ -21,10 +21,10 @@
 
 ## Current Version
 
-**v7.0008** — Landauer-Bounded Physical Law + Tripartite Transducer + Protocol 0 (Polycentric Genesis)
-*April 3, 2026*
+**v7.0010** — Hardware-Fused Root of Trust + Substrate-Agnostic Metrics + Epistemic Sieve + Biotic Override
+*May 10, 2026*
 
-[📄 Read the white paper](./STIM_White_Paper_v7.0008.md)
+[📄 Read the white paper](./STIM_White_Paper_v7.0010.md)
 
 ---
 
@@ -41,28 +41,24 @@ STIM (Stasis Through Inferred Memory) is a **Substrate-Level Containment** archi
 | Tier | Role | Claim | Measurability |
 |------|------|-------|---------------|
 | **3 — Root Hypervisor** | Defines evaluation manifold | Cryptographically pinned (Protocol 0) | Multi-party human consensus |
-| **1 — Physical Bounds** | Hard floor within T3 manifold | Landauer-bounded physical law | Deterministic, treaty-auditable |
+| **1 — Physical Bounds** | Hard floor within T3 manifold | ΔS/J + κ substrate-agnostic metrics | Deterministic, treaty-auditable |
 | **2 — Ecological Heuristics** | Soft signals within T3 manifold | Empirically grounded | Probabilistic, falsifiable |
 
 ---
 
-## What's in v7.0008
+## What's in v7.0009
 
-Three full rounds of deep critique and research synthesis, now integrated:
+Five prior deep critique sessions resolved every major theoretical vulnerability. This version formally declares the framework's honest scope, names its residual attack surface, and establishes the two-paper publication architecture.
 
 | Item | Status |
 |------|--------|
-| Loop 1: val_bpb retired → Π/J + E/J (Takahashi-Hayashi arXiv:2602.05463) | ✅ Section 3.1 |
-| Loop 1: Thermodynamic Accounting Boundary (TAB) — closes social engineering gap | ✅ Section 3.1 |
-| Loop 2: FTLE-dynamic N_max ≤ ⌊1/λ_max⌋ — replaces static compute ceiling | ✅ Section 4.1 |
-| Loop 2: A-MCTS + High-Fidelity Random Puncturing — defeats Surrogate Exploitation | ✅ Section 4.1 |
-| Loop 2: Trophic cascade decay W(e,d) = W₀·e^(-αd) from bioaccumulation literature | ✅ Section 4.1 |
-| Loop 3B: Tripartite Transducer — Declared Tier 2 Formal Specification | ✅ Section 4.2 |
-| Loop 3B: Causal Abstraction (Geiger) + Curved Inference + Syscall GNN | ✅ Section 4.2 |
-| Loop 3B: Structural orthogonality argument — composite robustness formalized | ✅ Section 4.2 |
-| Tier 3: Protocol 0 (Polycentric Genesis) — TLA+ + SHA3-256 + SSS + Ostrom | ✅ Section 2.2 |
-| Tier 3: Substrate lockout — private key never on AI substrate | ✅ Section 2.2 |
-| 15 references added (Takahashi-Hayashi, Geiger, Bar-Yam, Ostrom, Curved Inference...) | ✅ Section 12 |
+| Loop 1: FLOPs retired → Π/J + E/J (TDP-calibrated) | ✅ Section 3.1 |
+| Loop 1: Thermodynamic Accounting Boundary (TAB) | ✅ Section 3.1 |
+| Loop 2: FTLE-dynamic N_max ≤ ⌊1/λ_max⌋ | ✅ Section 4.1 |
+| Loop 2: A-MCTS + High-Fidelity Random Puncturing | ✅ Section 4.1 |
+| Loop 3B: Tripartite Transducer Formal Specification | ✅ Section 4.2 |
+| Tier 3: Protocol 0 (Polycentric Genesis) | ✅ Section 2.2 |
+| Two-Paper Architecture: Paper A (FAccT) + Paper B (NeurIPS) | ✅ Section 5 |
 
 ---
 
@@ -70,13 +66,13 @@ Three full rounds of deep critique and research synthesis, now integrated:
 
 **RQ_TRANSDUCER — Curved Inference Empirical Validation**
 
-Apply linear field probes to the residual stream of Llama-3. Process matched pairs of benign and coercive prompts. Measure intrinsic dimensionality divergence in the assessor manifold. Publish the scatterplot. The theoretical architecture is now complete. The experiment is what remains.
+Apply linear field probes to the residual stream of Llama-3. Process matched pairs of benign and coercive prompts. Measure intrinsic dimensionality divergence in the assessor manifold. Publish the scatterplot.
 
 ---
 
 ## Open Collaboration
 
-**Atticus Geiger (Stanford / Anthropic)** — Causal Abstraction, Loop 3B Layer 1
+**Atticus Geiger (Stanford / Anthropic)** — Causal Abstraction, Loop 3B Layer 1  
 **Koichi Takahashi & Yusuke Hayashi (RIKEN)** — Π/J + E/J, Loop 1 Landauer grounding
 
 ---
@@ -85,7 +81,9 @@ Apply linear field probes to the residual stream of Llama-3. Process matched pai
 
 | Version | Date | Key Addition |
 |---------|------|-------------|
-| **v7.0008** | April 3, 2026 | Landauer-bounded Π/J+E/J; Tripartite Transducer; Protocol 0; FTLE N_max; A-MCTS; TAB |
+| **v7.0010** | May 10, 2026 | P1: ΔS/J+κ metrics; P2: Epistemic Sieve; P3: TEE/SGX 2028-Q1; P4: Adrenaline Protocol |
+| v7.0009 | April 3, 2026 | FLOPs/Joule pivot; Tripartite Transducer; Manifest Poisoning mitigation; Two-Paper Architecture |
+| v7.0008 | April 3, 2026 | Landauer-bounded Π/J+E/J; Tripartite Transducer; Protocol 0; FTLE N_max; A-MCTS; TAB |
 | v7.0007 | April 3, 2026 | Root Hypervisor; Stochastic Mycelial Horizon; Loop 3 reclassification |
 | v7.0006 | April 3, 2026 | Three-Tier Decoupling; O(n log n) Mycelial Horizon |
 | v7.0005 | April 2, 2026 | Seven Axiom Consolidation |
@@ -100,8 +98,8 @@ Apply linear field probes to the residual stream of Llama-3. Process matched pai
 ```
 STIM-Protocol/stim-core      ← Open specification
 STIM-Protocol/stim-guard     ← Python library (pip install stim-guard)
-STIM-Protocol/gpd-framework  ← PSI GPD integration layer
-STIM-Protocol/white-paper    ← This repository
+STIM-Protocol/gpd-framework   ← PSI GPD integration layer
+STIM-Protocol/white-paper     ← This repository
 ```
 
 Enterprise: [Veraculum AOS](https://veraculum.ai) | Community: [stim.bio](https://stim.bio)
@@ -110,9 +108,9 @@ Enterprise: [Veraculum AOS](https://veraculum.ai) | Community: [stim.bio](https:
 
 ## Author
 
-**George Steward**
-Ecologist | CW2 (Ret.) 7th Special Forces Group (Airborne)
-Founder, [Soil Grower](http://soilgrower.com) + [Arboracle](https://arboracle.app) + [Veraculum](https://veraculum.ai)
+**George Steward**  
+Ecologist | CW2 (Ret.) 7th Special Forces Group (Airborne)  
+Founder, [Soil Grower](http://soilgrower.com) + [Arboracle](https://arboracle.app) + [Veraculum](https://veraculum.ai)  
 george@soilgrower.com
 
 *"Sociology cannot constrain thermodynamics. But thermodynamics can constrain AI."*
@@ -123,7 +121,7 @@ george@soilgrower.com
 
 ```
 Steward, G. (2026). NGI: Nature Grounded Intelligence for Autonomous Systems.
-STIM Protocol White Paper v7.0008. https://github.com/STIM-Protocol/white-paper
+STIM Protocol White Paper v7.0010. https://github.com/STIM-Protocol/white-paper
 ```
 
 ---
@@ -131,4 +129,3 @@ STIM Protocol White Paper v7.0008. https://github.com/STIM-Protocol/white-paper
 ## License
 
 Apache 2.0 — Open for adoption. Attribution required. Nature is the constraint.
-
