@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/STIM-Protocol/stim-core"><img alt="STIM Core" src="https://img.shields.io/badge/STIM-Layer_0_Spec-1a4a2e?style=flat&labelColor=0d2818"></a>
   <a href="https://github.com/psi-oss/get-physics-done"><img alt="GPD" src="https://img.shields.io/badge/Physics-PSI_GPD-1a4a2e?style=flat&labelColor=0d2818"></a>
-  <img alt="Version" src="https://img.shields.io/badge/Version-v7.0008-1a4a2e?style=flat&labelColor=0d2818">
+  <img alt="Version" src="https://img.shields.io/badge/Version-v7.0010-1a4a2e?style=flat&labelColor=0d2818">
   <img alt="Status" src="https://img.shields.io/badge/Status-Pre--arXiv_Draft-1a4a2e?style=flat&labelColor=0d2818">
   <img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-1a4a2e?style=flat&labelColor=0d2818">
 </p>
@@ -131,3 +131,4 @@ STIM Protocol White Paper v7.0008. https://github.com/STIM-Protocol/white-paper
 ## License
 
 Apache 2.0 — Open for adoption. Attribution required. Nature is the constraint.
+
