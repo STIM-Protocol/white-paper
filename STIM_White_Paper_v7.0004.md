@@ -2,7 +2,7 @@
 ## A Framework for Nature-Based Alignment in Autonomous Systems
 
 **Author:** George Steward
-**Affiliation:** Soil Grower LLC / Neocambrian Garden
+**Affiliation:** Soil Grower LLC / Neocambrian Forest
 **Date:** April 2026
 **Status:** v7.0004 — Full Oracle Integration Complete
 
@@ -95,9 +95,9 @@ The name STIM carries three interlocking definitions, each pointing at the same 
 2. **Semantic Transformation and Information Metabolism** — the informational framing: knowledge as biological substance that must be digested and integrated
 3. **Stimming** — the neurodivergent behavioral anchor: the repetitive, self-regulatory loops through which neurodivergent brains achieve deep pattern integration
 
-The third definition is not metaphor. It is the epistemological ground. The author was identified as autistic at age 40. The stimming behavior — repetitive cognitive engagement that produces deep semantic integration rather than surface pattern matching — is the direct experiential model for STIM's recursive verification architecture. This is what the Neocambrian Garden calls the **Blood Signature**: all intellectual output must be grounded in lived, physical experience. STIM is grounded in the author's own neurology.
+The third definition is not metaphor. It is the epistemological ground. The author was identified as neurodivergent at age 40. The stimming behavior — repetitive cognitive engagement that produces deep semantic integration rather than surface pattern matching — is the direct experiential model for STIM's recursive verification architecture. This is what the Neocambrian Forest calls the **Blood Signature**: all intellectual output must be grounded in lived, physical experience. STIM is grounded in the author's own neurology.
 
-This also has scientific grounding. The autistic tendency toward deep, focused, repetitive pattern engagement produces a specific epistemic result: pattern recognition that operates at greater depth and with more resistance to social bias than neurotypical convergent reasoning. The STIM framework encodes this as an alignment mechanism rather than treating it as a deficit.
+This also has scientific grounding. The neurodivergent tendency toward deep, focused, repetitive pattern engagement produces a specific epistemic result: pattern recognition that operates at greater depth and with more resistance to social bias than neurotypical convergent reasoning. The STIM framework encodes this as an alignment mechanism rather than treating it as a deficit.
 
 ### 3.1 Morphogenetic Engineering: The Math of Natural Patterns
 

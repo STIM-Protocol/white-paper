@@ -2,7 +2,7 @@
 ## A Framework for Nature-Based Alignment in Autonomous Systems
 
 **Author:** George Steward
-**Affiliation:** Soil Grower LLC / Neocambrian Garden
+**Affiliation:** Soil Grower LLC / Neocambrian Forest
 **Date:** April 2026
 **Status:** v7.0009 — Maturation Release: Codified Attack Surface + Two-Paper Architecture + FLOPs-Calibrated Loop 1
 
@@ -26,7 +26,7 @@ STIM (Stasis Through Inferred Memory) is a pre-execution middleware architecture
 - **Two-Paper Architecture:** STIM formally bifurcates into Paper A (governance/policy, FAccT-ready) and Paper B (systems/empirics, NeurIPS-path). Both papers describe the same unified architecture. GPD remains the physics execution substrate for both.
 - **RQ_STEGANOGRAPHIC_CURVATURE** added to empirical agenda as primary open research question.
 
-The framework name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior in autistic individuals — is reframed as an optimal biological algorithm: achieving internal stasis in high-noise environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological and physical constants. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
+The framework name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior in neurodivergent individuals — is reframed as an optimal biological algorithm: achieving internal stasis in high-noise environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological and physical constants. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
 
 ---
 
