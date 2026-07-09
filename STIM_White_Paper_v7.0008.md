@@ -2,7 +2,7 @@
 ## A Framework for Nature-Based Alignment in Autonomous Systems
 
 **Author:** George Steward
-**Affiliation:** Soil Grower LLC / Neocambrian Garden
+**Affiliation:** Soil Grower LLC / Neocambrian Forest
 **Date:** April 2026
 **Status:** v7.0008 — Landauer-Bounded Physical Law + Tripartite Transducer + Protocol 0 (Polycentric Genesis)
 
@@ -23,7 +23,7 @@ This paper presents STIM (Stasis Through Inferred Memory), a pre-execution middl
 - **Loop 3B (Tripartite Topological Transducer):** Upgraded from open research to Declared Tier 2 Formal Specification. The transducer composes three structurally orthogonal layers — Causal Abstraction (Geiger), Curved Inference (activation geometry), and Behavioral Fingerprinting (syscall GNNs) — into a substrate-neutral f(tokens) → capability_intent_vector without LLM opinion weights.
 - **Tier 3 (Root Hypervisor):** Protocol 0 (Polycentric Genesis) formally specifies the T3 manifest key ceremony: TLA+ state machine verification, Shamir's Secret Sharing k-of-n threshold signing, and Ostrom polycentric governance principles. The AI never holds private keys. Side-channel extraction is architecturally nullified.
 
-The framework's name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior observed in autistic individuals — is reframed not as pathology but as an optimal biological algorithm: achieving internal stasis in high-noise environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological and physical constants. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
+The framework's name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior observed in neurodivergent individuals — is reframed not as pathology but as an optimal biological algorithm: achieving internal stasis in high-noise environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological and physical constants. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
 
 ---
 

@@ -2,7 +2,7 @@
 ## A Framework for Nature-Based Alignment in Autonomous Systems
 
 **Author:** George Steward
-**Affiliation:** Soil Grower LLC / Neocambrian Garden
+**Affiliation:** Soil Grower LLC / Neocambrian Forest
 **Date:** April 2026
 **Status:** v7.0007 — Root Hypervisor Architecture + Stochastic Mycelial Horizon + Loop 3 Honest Reclassification
 
@@ -22,7 +22,7 @@ This paper presents STIM (Stasis Through Inferred Memory), a pre-execution middl
 - **Tier 3 as Root Hypervisor:** Tiers 1 and 2 do not evaluate independently. They evaluate exclusively within the manifold defined by Tier 3. The "human-inhabited biosphere" boundary is cryptographically pinned by human operators — not evaluable or revisable by the AI.
 - **Explicit scope concession:** STIM is a Substrate-Level Containment architecture. It solves instrumental convergence. Constitutional AI / RLHF must operate above it to handle semantic alignment. STIM does not catch every harm. It catches the class of harms that current frameworks miss entirely.
 
-The framework's name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior observed in autistic individuals — is reframed not as pathology but as an optimal biological algorithm: achieving internal stasis (equilibrium) in high-noise sensory environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological constants, the way stimming achieves stable cognition by returning to a predictable sensory anchor. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
+The framework's name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior observed in neurodivergent individuals — is reframed not as pathology but as an optimal biological algorithm: achieving internal stasis (equilibrium) in high-noise sensory environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological constants, the way stimming achieves stable cognition by returning to a predictable sensory anchor. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
 
 ---
 

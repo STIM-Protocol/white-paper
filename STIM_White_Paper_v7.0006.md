@@ -2,7 +2,7 @@
 ## A Framework for Nature-Based Alignment in Autonomous Systems
 
 **Author:** George Steward
-**Affiliation:** Soil Grower LLC / Neocambrian Garden
+**Affiliation:** Soil Grower LLC / Neocambrian Forest
 **Date:** April 2026
 **Status:** v7.0006 — Three-Tier Decoupling (Physical Bounds / Ecological Heuristics / Normative Declarations)
 
@@ -16,7 +16,7 @@ We are biological entities operating within a physical universe. Our intelligenc
 
 This paper presents STIM (Stasis Through Inferred Memory), a framework that returns artificial intelligence to Ground 0. STIM grounds AI inference in a three-tier architecture of increasing epistemic precision: (1) immutable physical law, (2) empirically grounded ecological heuristics, and (3) explicitly declared normative scope. These tiers are formally separated and make no claims beyond their epistemic warrant.
 
-The framework's name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior observed in autistic individuals — is reframed not as pathology but as an optimal biological algorithm: achieving internal stasis (equilibrium) in high-noise sensory environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological constants, the way stimming achieves stable cognition by returning to a predictable sensory anchor. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
+The framework's name carries deliberate layering. "Stimming" — the repetitive self-regulatory behavior observed in neurodivergent individuals — is reframed not as pathology but as an optimal biological algorithm: achieving internal stasis (equilibrium) in high-noise sensory environments through repetitive return to invariant anchors. STIM encodes this as an AI architecture. The system achieves stable inference by repeatedly grounding against invariant ecological constants, the way stimming achieves stable cognition by returning to a predictable sensory anchor. The acronym is simultaneously a memory architecture, a neurodivergent reclamation, and a thermodynamic principle.
 
 STIM deploys as a pre-execution middleware layer (Layer 0) operating beneath existing alignment frameworks via the Model Context Protocol (MCP). It employs three verification loops operating on three non-overlapping measurement domains: thermodynamic energy (Bits per Joule), bounded graph topology (O(n log n) mycelial horizon), and resource acquisition geometry (task-scope delta). A fourth loop — the Epistemic Diversity Index — operates across session history to prevent cognitive monoculture. The framework integrates Physical Superintelligence PBC's Get Physics Done (GPD) as its computational physics substrate and Karpathy's autoresearch framework as its metabolic validation engine.
 

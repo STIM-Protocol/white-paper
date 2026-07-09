@@ -1,0 +1,13 @@
+{
+  "@context": "https://for.est/contexts/forest-centennial-os/v1",
+  "id": "01J730e985f8a",
+  "type": "document",
+  "title": "Stim Voice Agent Prompts",
+  "stim_axioms": "1,2,3,6",
+  "provenance": "Generated 2026-05-02",
+  "created": "2026-05-02T02:14:42",
+  "updated": "2026-05-02T02:14:42",
+  "relations": {
+    "path": "UNDERSTORY/GITHUB/white-paper/STIM_Voice_Agent_Prompts.md"
+  }
+}
