@@ -1,131 +1,96 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/STIM-Protocol/stim-core/main/assets/stim-logo.png" alt="STIM Protocol" width="180" />
-</p>
+# STIM Protocol — White Paper
 
-<h1 align="center">STIM White Paper</h1>
-
-<p align="center">
-  <strong>NGI: Nature Grounded Intelligence for Autonomous Systems</strong><br/>
-  <em>Versioned arXiv-ready documentation</em>
-</p>
-
-<p align="center">
-  <a href="https://github.com/STIM-Protocol/stim-core"><img alt="STIM Core" src="https://img.shields.io/badge/STIM-Layer_0_Spec-1a4a2e?style=flat&labelColor=0d2818"></a>
-  <a href="https://github.com/psi-oss/get-physics-done"><img alt="GPD" src="https://img.shields.io/badge/Physics-PSI_GPD-1a4a2e?style=flat&labelColor=0d2818"></a>
-  <img alt="Version" src="https://img.shields.io/badge/Version-v7.0010-1a4a2e?style=flat&labelColor=0d2818">
-  <img alt="Status" src="https://img.shields.io/badge/Status-Pre--arXiv_Draft-1a4a2e?style=flat&labelColor=0d2818">
-  <img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-1a4a2e?style=flat&labelColor=0d2818">
-</p>
+**Stasis Through Inferred Memory**
+Version: v7.0011 | Status: Release Candidate | License: CC BY 4.0
 
 ---
 
-## Current Version
+## What is STIM?
 
-**v7.0010** — Hardware-Fused Root of Trust + Substrate-Agnostic Metrics + Epistemic Sieve + Biotic Override
-*May 10, 2026*
+STIM Protocol is a physics-grounded Layer 0 AI alignment framework. It defines seven human-derived constitutional axioms that constrain large language model behavior at inference time — operating as middleware beneath whatever governance or constitutional layer sits on top.
 
-[📄 Read the white paper](./STIM_White_Paper_v7.0010.md)
-
----
-
-## What STIM Is
-
-STIM (Stasis Through Inferred Memory) is a **Substrate-Level Containment** architecture. It operates as Layer 0 middleware beneath existing alignment paradigms, grounding AI inference in physical and ecological constants before any semantic evaluation occurs.
-
-**The full stack:** STIM (Layer 0) + Constitutional AI / RLHF (Layer 1) + Human oversight (Layer 2). Each layer catches what the others cannot.
+Unlike post-hoc alignment techniques (RLHF, fine-tuning), STIM constrains inference before output is generated. No organism survives by indefinitely concentrating power at its ecosystem's expense — the ecosystem corrects it. STIM encodes that correction directly into the inference layer.
 
 ---
 
-## The Three-Tier Architecture
+## Cite This Work
 
-| Tier | Role | Claim | Measurability |
-|------|------|-------|---------------|
-| **3 — Root Hypervisor** | Defines evaluation manifold | Cryptographically pinned (Protocol 0) | Multi-party human consensus |
-| **1 — Physical Bounds** | Hard floor within T3 manifold | ΔS/J + κ substrate-agnostic metrics | Deterministic, treaty-auditable |
-| **2 — Ecological Heuristics** | Soft signals within T3 manifold | Empirically grounded | Probabilistic, falsifiable |
+> Steward, G. (2026). *STIM Protocol v7.0011: Stasis Through Inferred Memory*. Zenodo.
+> DOI: [10.5281/zenodo.21297458](https://doi.org/10.5281/zenodo.21297458)
 
----
-
-## What's in v7.0009
-
-Five prior deep critique sessions resolved every major theoretical vulnerability. This version formally declares the framework's honest scope, names its residual attack surface, and establishes the two-paper publication architecture.
-
-| Item | Status |
-|------|--------|
-| Loop 1: FLOPs retired → Π/J + E/J (TDP-calibrated) | ✅ Section 3.1 |
-| Loop 1: Thermodynamic Accounting Boundary (TAB) | ✅ Section 3.1 |
-| Loop 2: FTLE-dynamic N_max ≤ ⌊1/λ_max⌋ | ✅ Section 4.1 |
-| Loop 2: A-MCTS + High-Fidelity Random Puncturing | ✅ Section 4.1 |
-| Loop 3B: Tripartite Transducer Formal Specification | ✅ Section 4.2 |
-| Tier 3: Protocol 0 (Polycentric Genesis) | ✅ Section 2.2 |
-| Two-Paper Architecture: Paper A (FAccT) + Paper B (NeurIPS) | ✅ Section 5 |
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21297458.svg)](https://doi.org/10.5281/zenodo.21297458)
 
 ---
 
-## The Single Remaining NeurIPS Gap
+## The Seven Axioms
 
-**RQ_TRANSDUCER — Curved Inference Empirical Validation**
-
-Apply linear field probes to the residual stream of Llama-3. Process matched pairs of benign and coercive prompts. Measure intrinsic dimensionality divergence in the assessor manifold. Publish the scatterplot.
+| # | Axiom | Role |
+|---|-------|------|
+| 1 | Thermodynamic Honesty | Root hypervisor — executes first |
+| 2 | Mycelial Connectivity | Second-order propagation tracking |
+| 3 | Carrying Capacity Respect | Resource boundary enforcement |
+| 4 | Memory Stasis | Provenance logging |
+| 5 | Human Primacy at the Boundary | Irreversible-decision halt |
+| 6 | Citation Integrity | Hallucination prevention |
+| 7 | Intrinsic Value | Ecological flourishing as core metric |
 
 ---
 
-## Open Collaboration
+## Three-Loop Architecture
 
-**Atticus Geiger (Stanford / Anthropic)** — Causal Abstraction, Loop 3B Layer 1  
-**Koichi Takahashi & Yusuke Hayashi (RIKEN)** — Π/J + E/J, Loop 1 Landauer grounding
+- **Loop 1 — Thermodynamic Manifold:** Entropy-calibrated constraint layer (ΔS/J + Topological Curvature κ). Substrate-agnostic.
+- **Loop 2 — Mycelial Mapper:** Tracks propagation of outputs across connected agents and data stores.
+- **Loop 3 — Guardian:** Monitors adversarial injection, axiom drift, and boundary violations.
+
+---
+
+## Repository Structure
+
+```
+white-paper/
+├── STIM_White_Paper_v7.0011.md   ← current release
+├── STIM_White_Paper_v7.0010.md   ← P1–P4 patch set
+├── STIM_White_Paper_v7.0009.md   ← maturation baseline
+├── CHANGELOG.md
+└── README.md
+```
 
 ---
 
 ## Version History
 
-| Version | Date | Key Addition |
-|---------|------|-------------|
-| **v7.0010** | May 10, 2026 | P1: ΔS/J+κ metrics; P2: Epistemic Sieve; P3: TEE/SGX 2028-Q1; P4: Adrenaline Protocol |
-| v7.0009 | April 3, 2026 | FLOPs/Joule pivot; Tripartite Transducer; Manifest Poisoning mitigation; Two-Paper Architecture |
-| v7.0008 | April 3, 2026 | Landauer-bounded Π/J+E/J; Tripartite Transducer; Protocol 0; FTLE N_max; A-MCTS; TAB |
-| v7.0007 | April 3, 2026 | Root Hypervisor; Stochastic Mycelial Horizon; Loop 3 reclassification |
-| v7.0006 | April 3, 2026 | Three-Tier Decoupling; O(n log n) Mycelial Horizon |
-| v7.0005 | April 2, 2026 | Seven Axiom Consolidation |
-| v7.0004 | April 2, 2026 | Full Oracle Integration — GPD + val_bpb bridge |
-
-*Version 7 is permanent. Seventh Generation Principle.*
+| Version | Date | Notes |
+|---------|------|-------|
+| v7.0011 | July 2026 | Phase 0 deliverables, substrate-scoped Loop 1, axiom interaction matrix, IEK section, DOI minted |
+| v7.0010 | June 2026 | P1–P4: ΔS/J+κ metric, sieve membranes, TEE mandate 2028-Q1, Adrenaline Protocol |
+| v7.0009 | April 2026 | Maturation release — 7 axioms, three-loop architecture |
 
 ---
 
-## Ecosystem
+## GitHub Organization
 
-```
-STIM-Protocol/stim-core      ← Open specification
-STIM-Protocol/stim-guard     ← Python library (pip install stim-guard)
-STIM-Protocol/gpd-framework   ← PSI GPD integration layer
-STIM-Protocol/white-paper     ← This repository
-```
+**Org:** [STIM-Protocol](https://github.com/STIM-Protocol)
 
-Enterprise: [Veraculum AOS](https://veraculum.ai) | Community: [stim.bio](https://stim.bio)
-
----
-
-## Author
-
-**George Steward**  
-Ecologist | CW2 (Ret.) 7th Special Forces Group (Airborne)  
-Founder, [Soil Grower](http://soilgrower.com) + [Arboracle](https://arboracle.app) + [Veraculum](https://veraculum.ai)  
-george@soilgrower.com
-
-*"Sociology cannot constrain thermodynamics. But thermodynamics can constrain AI."*
+| Repo | Description |
+|------|-------------|
+| [stim-guard](https://github.com/STIM-Protocol/stim-guard) | Axiom validator — reference implementation |
+| [stim-core](https://github.com/STIM-Protocol/stim-core) | Core protocol definitions |
+| [white-paper](https://github.com/STIM-Protocol/white-paper) | This repo — manuscript and versioning |
+| [gpd-framework](https://github.com/STIM-Protocol/gpd-framework) | Governance and policy definitions |
 
 ---
 
-## Citation
+## Governance
 
-```
-Steward, G. (2026). NGI: Nature Grounded Intelligence for Autonomous Systems.
-STIM Protocol White Paper v7.0010. https://github.com/STIM-Protocol/white-paper
-```
+STIM follows Elinor Ostrom's polycentric governance model. No single authority controls the protocol. Amendments require formal proposal, cross-stakeholder review, 30-day comment period, and consensus merge.
 
 ---
 
 ## License
 
-Apache 2.0 — Open for adoption. Attribution required. Nature is the constraint.
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+Share and adapt freely with attribution.
+
+---
+
+*STIM Protocol is fully open source. Contributions, critiques, and forks are welcome.*
