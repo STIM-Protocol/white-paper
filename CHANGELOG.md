@@ -1,3 +1,50 @@
+## v7.0011 — July 2026
+**Release Candidate: Phase 0 Foundation Lock + Substrate-Scoped Loop 1 + Zenodo DOI**
+
+### Architecture
+- Loop 1 FLOPs/ΔS/J+κ contradiction resolved: scoped by substrate class (FLOPs for Von Neumann digital, ΔS/J+κ for analog/neuromorphic)
+- Three-loop architecture formally consolidated into §3
+- Axiom count locked at 7 (authoritative, no 8th axiom)
+
+### New Sections
+- Axiom Interaction Matrix (§6) — axioms shown as mutually reinforcing, not independent
+- Limitations & Open Research Questions (§8) — Tier 1 immediately deployable; Tier 2/3 require empirical validation
+- Reproducibility (§9) — commit hashes, DOI slot, CI reproducibility instructions
+- Cultural Sensitivity / Indigenous Ecological Knowledge (§10)
+
+### Publication
+- Zenodo DOI minted: 10.5281/zenodo.21297458
+- GitHub Release: v7.0011
+- CC BY 4.0 license
+
+### Active Friston / Free Energy Framing
+- Loop 1 ΔS/J metric mapped explicitly to free-energy minimization under thermodynamic constraints
+
+---
+
+## v7.0010 — June 2026
+**Patch Set P1–P4: Substrate Extension + Sieve Membranes + TEE Mandate + Adrenaline Protocol**
+
+### P1 — Substrate-Agnostic Metrics
+- FLOPs/Joule manifest retired as sole Loop 1 metric
+- Shannon Entropy Delta per Joule (ΔS/J) + Topological Curvature (κ) adopted
+- Covers analog, biological, and neuromorphic substrates
+
+### P2 — Epistemic Sieve Membranes
+- Domain-specific structural validation templates: SOAP (medical), Case Filing (legal), Trade Order (financial), Experimental Protocol (research)
+- SHA-256 hash enforcement on validated inputs
+
+### P3 — Protocol 0 Hardware Migration Timeline
+- Tier 3 TEE/SGX attestation mandated by 2028-Q1
+- Intermediate path: Tier 2 TPM/vTPM available immediately
+
+### P4 — Adrenaline Protocol (Biotic Override)
+- Break-glass mechanism for catastrophic boundary violations
+- External-key trigger only — agent self-trigger prohibited
+- Mandatory post-breach compute blackout + full provenance logging
+
+---
+
 ## v7.0009 — April 2026
 **Maturation Release: Codified Attack Surface + Two-Paper Architecture + FLOPs-Calibrated Loop 1**
 
