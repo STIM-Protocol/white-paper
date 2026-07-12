@@ -1,7 +1,7 @@
 # STIM Protocol — Stasis Through Inferred Memory
 **Version:** v7.0011
 **Date:** 2026-07-09
-**Status:** RELEASE CANDIDATE — pending Zenodo DOI
+**Status:** PUBLISHED — DOI: 10.5281/zenodo.21297458
 **Authors:** George Steward
 **License:** CC BY 4.0
 
