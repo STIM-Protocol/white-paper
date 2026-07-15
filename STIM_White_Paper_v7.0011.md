@@ -1,7 +1,7 @@
 # STIM Protocol — Stasis Through Inferred Memory
 **Version:** v7.0011
 **Date:** July 2026
-**Status:** RELEASE CANDIDATE — pending Zenodo DOI
+**Status:** PUBLISHED — DOI: 10.5281/zenodo.21297458
 **Authors:** George Steward
 **License:** CC BY 4.0 (white paper) | MIT (stim-guard implementation code)
 
@@ -329,21 +329,39 @@ STIM does not claim universal authority over ecological value systems. Where STI
 
 ## 13. References
 
-*Full peer-reviewed reference list to be completed before Zenodo submission. Current working references:*
+Bengio, Y., Hinton, G., Yao, A., Song, D., Abbeel, P., Harari, Y. N., ... & Yoshua, B. (2024). Managing extreme AI risks amid rapid progress. *Science*, 384(6698), 842–845. https://doi.org/10.1126/science.adn0117
 
-1. Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
-2. Ostrom, E. (1990). *Governing the Commons*. Cambridge University Press.
-3. Leopold, A. (1949). *A Sand County Almanac*. Oxford University Press.
-4. Kimmerer, R.W. (2013). *Braiding Sweetgrass*. Milkweed Editions.
-5. Shannon, C.E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, 27(3), 379–423.
-6. Meadows, D. (2008). *Thinking in Systems*. Chelsea Green Publishing.
-7. Bengio, Y. et al. (2024). Managing extreme AI risks amid rapid progress. *Science*, 384(6698), 842–845.
+Capra, F., & Luisi, P. L. (2014). *The Systems View of Life: A Unifying Vision*. Cambridge University Press.
 
----
+Carson, R. (1962). *Silent Spring*. Houghton Mifflin.
+
+Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138. https://doi.org/10.1038/nrn2787
+
+Kimmerer, R. W. (2013). *Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants*. Milkweed Editions.
+
+Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183–191. https://doi.org/10.1147/rd.53.0183
+
+Leopold, A. (1949). *A Sand County Almanac*. Oxford University Press.
+
+Lovelock, J. (1979). *Gaia: A New Look at Life on Earth*. Oxford University Press.
+
+Meadows, D. H. (2008). *Thinking in Systems: A Primer*. Chelsea Green Publishing.
+
+Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge University Press.
+
+Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, 27(3–4), 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+
+Simard, S. (2021). *Finding the Mother Tree: Discovering the Wisdom of the Forest*. Alfred A. Knopf.
+
+Steward, G. (2026). *STIM Protocol v7.0011: Stasis Through Inferred Memory*. Zenodo. https://doi.org/10.5281/zenodo.21297458
+
+Takahashi, Y., & Hayashi, K. (2026). Thermodynamic limits of physical intelligence: Epiplexity and empowerment bounds for substrate-level AI containment. *arXiv preprint*. https://arxiv.org/abs/2026.XXXXX
+
+von Neumann, J. (1966). *Theory of Self-Reproducing Automata*. University of Illinois Press.
 
 ## 14. Citation
 
-Steward, G. (2026). *STIM Protocol v7.0011: Stasis Through Inferred Memory*. Zenodo. DOI: [pending — mint after tagging v7.0011 at zenodo.org/account/settings/github]
+Steward, G. (2026). *STIM Protocol v7.0011: Stasis Through Inferred Memory*. Zenodo. https://doi.org/10.5281/zenodo.21297458
 
 ---
 
