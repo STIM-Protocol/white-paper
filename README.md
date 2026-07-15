@@ -48,9 +48,9 @@ Unlike post-hoc alignment techniques (RLHF, fine-tuning), STIM constrains infere
 
 ```
 white-paper/
-├── STIM_White_Paper_v7.0011.md   ← current release
-├── STIM_White_Paper_v7.0010.md   ← P1–P4 patch set
-├── STIM_White_Paper_v7.0009.md   ← maturation baseline
+├── STIM_White_Paper_v7.0011.md   ← CANONICAL CURRENT VERSION   ← current release
+├── STIM_White_Paper_v7.0010.md   ← P1–P4 patch set (superseded)
+├── STIM_White_Paper_v7.0009.md   ← maturation baseline (superseded)
 ├── CHANGELOG.md
 └── README.md
 ```
