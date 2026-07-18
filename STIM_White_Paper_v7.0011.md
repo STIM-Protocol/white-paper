@@ -9,7 +9,7 @@
 
 ## Abstract
 
-STIM (Stasis Through Inferred Memory) is a physics-grounded Layer 0 AI alignment framework. It defines seven human-derived constitutional axioms that constrain large language model behavior at inference time. Unlike post-hoc alignment techniques, STIM operates as middleware — a nature-grounded constraint manifold that precedes model output generation. The protocol is designed to be cited, forked, and extended by other AI safety researchers and system architects.
+STIM (Stasis Through Inferred Memory) is a physics-grounded Layer 0 AI alignment framework. It defines seven nature-derived axioms that constrain large language model behavior at inference time. Unlike post-hoc alignment techniques, STIM operates as middleware — a nature-grounded constraint manifold that precedes model output generation. The protocol is designed to be cited, forked, and extended by other AI safety researchers and system architects.
 
 ---
 
