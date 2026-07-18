@@ -7,7 +7,7 @@ Version: v7.0011 | Status: Release Candidate | License: CC BY 4.0
 
 ## What is STIM?
 
-STIM Protocol is a physics-grounded Layer 0 AI alignment framework. It defines seven human-derived constitutional axioms that constrain large language model behavior at inference time — operating as middleware beneath whatever governance or constitutional layer sits on top.
+STIM Protocol is a physics-grounded Layer 0 AI alignment framework. It defines seven nature-derived axioms that constrain large language model behavior at inference time — operating as middleware beneath whatever governance or constitutional layer sits on top.
 
 Unlike post-hoc alignment techniques (RLHF, fine-tuning), STIM constrains inference before output is generated. No organism survives by indefinitely concentrating power at its ecosystem's expense — the ecosystem corrects it. STIM encodes that correction directly into the inference layer.
 
