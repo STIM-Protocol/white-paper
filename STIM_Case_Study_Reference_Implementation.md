@@ -1,0 +1,149 @@
+<!--
+STIM Protocol Reference Implementation — Case Study
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Companion DOI: 10.5281/zenodo.21297458
+Protocol: STIM v7.0011 — "Stasis Through Inferred Memory"
+-->
+
+# STIM Protocol Reference Implementation
+## How Seven Nature-Derived Axioms Shape a Production Platform
+
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · **DOI:** [10.5281/zenodo.21297458](https://doi.org/10.5281/zenodo.21297458)
+**Protocol:** STIM v7.0011 — *Stasis Through Inferred Memory*
+**Platform:** Arboracle (openarbor.org) — AI-native system of record for the green industry
+
+---
+
+## Abstract
+
+STIM Protocol defines seven nature-derived axioms as inference-time constraints for AI systems. This case study documents their application not as theoretical guardrails but as concrete architectural decisions in a production platform serving arborists, nurseries, and land stewards. Two features — an assessment-to-stewardship engine and an ordinance intelligence bridge — collectively demonstrate all seven axioms in live, user-facing code.
+
+The reusable finding is methodological: **every bug in this build was found by testing against axioms, not against specifications.** The axioms functioned as a test oracle. We call this pattern *axiom-as-test-oracle*, and it is the primary contribution this document offers to contributors.
+
+---
+
+## 1. The Problem
+
+The green industry is fragmented, data-poor, and regulatory-exposed. Municipal tree ordinances exist as static PDFs; an arborist assessing a protected oak may not learn the removal threshold until the city issues a citation.
+
+Existing software treats trees as inventory — assets to be depreciated. This framing is thermodynamically dishonest. A mature live oak sequesters carbon, intercepts stormwater, supports pollinators, and regulates microclimate. It is not depreciating; it is compounding. No platform encodes that reality.
+
+STIM asks: what if the constraints governing ecological systems also governed the software that manages them?
+
+---
+
+## 2. The Seven Axioms
+
+1. **Thermodynamic Honesty** — No greenwashing. Every ecological claim links to a calculation method. Only real, measured values.
+2. **Mycelial Connectivity** — No entity is isolated. Everything connects.
+3. **Carrying Capacity Respect** — The ecosystem has limits. The platform surfaces them.
+4. **Memory Stasis** — No destructive updates. History is preserved. Append-only.
+5. **Human Primacy** — The system recommends; the human decides.
+6. **Citation Integrity** — Every data point has a source. Confidence is explicit.
+7. **Intrinsic Value** — Trees are not depreciating assets. They are Biological Equity.
+
+---
+
+## 3. Verified Axiom Table
+
+Two features, seven axioms, each with the concrete mechanism that proves it in running code.
+
+| Axiom | Feature | Proof in production |
+| :--- | :--- | :--- |
+| **Thermodynamic Honesty** | Assessment engine | Null metrics never fabricate. A missing `overall_health_score` does not fire the hazard rule on an invented value — the system stays silent rather than guessing. |
+| **Thermodynamic Honesty** | Ordinance bridge | Unquantified trees produce a prompt, not a number: "This tree's ecological value hasn't been quantified yet. Run the benefits calculator." |
+| **Mycelial Connectivity** | Ordinance bridge | A five-entity chain resolved per verdict: Tree → Property → Municipality → OrdinanceProvision → StewardTask. |
+| **Carrying Capacity Respect** | Assessment engine | Root/soil ≤4/10 and canopy/trunk ≤4/10 rules detect failing biological support systems and convert recorded decline into scheduled work. |
+| **Memory Stasis** | Both features | Hidden provenance markers `[assessment:ID][rule:KEY]` and `[assessment:ID][ordinance:provisionID]` make regeneration idempotent. Re-running never duplicates; nothing is destructively overwritten. |
+| **Human Primacy** | Ordinance bridge | Task closes with "Acknowledge this before the crew is dispatched," carrying an amber *Permit required* badge. The system flags; the arborist confirms. |
+| **Human Primacy** | Assessment engine | Auto-generated tasks carry a *From assessment* badge, so machine-generated work is always distinguishable from hand-entered work and can be overridden. |
+| **Citation Integrity** | Ordinance bridge | Every verdict cites ordinance title, section identifier, source URL, confidence tier, and last-verified date. Low confidence is stated aloud in the task text. |
+| **Citation Integrity** | Assessment engine | The function reads the stored record from the database, never the inbound payload. A crafted request cannot write tasks against fabricated data. |
+| **Intrinsic Value** | Ordinance bridge | The permit task leads with what the tree contributes — carbon, stormwater, cooling, pollinator value, structural replacement cost — framed as "the Biological Equity you're defending," not as liability avoidance. |
+
+---
+
+## 4. Live Proof — Verbatim Permit Task
+
+Generated by the production platform against a real assessment (southern live oak, 21.5 in DBH, Liberty Hill, TX). Reproduced verbatim, including citation block:
+
+```
+That 21.5-inch southern live oak needs a permit before you touch it.
+Liberty Hill, TX protects anything over 8 inches.
+
+What this tree is giving back — the Biological Equity you're defending:
+• 60 lbs of carbon pulled out of the air every year
+• 2,921 gallons of stormwater caught before it hits the storm drain
+• 72 kWh of cooling energy saved each year
+• $85 of ecosystem services delivered annually
+• Medium value to local pollinators
+• Ecological value scored 7/10 by the assessor
+• Replacement cost if destroyed: $12,151 (CTLA assessment)
+
+Source: Unified Development Code (UDC) Rewrite — §6.07 Tree Inventory,
+Protection, and Preservation — https://ecode360.com/42968920
+Confidence: HIGH (last verified 2026-07-25)
+
+Acknowledge this before the crew is dispatched.
+```
+
+Four axioms are visible in this single artifact: **Intrinsic Value** (the benefits lead, the fine is never mentioned), **Citation Integrity** (section, URL, confidence tier, verification date), **Human Primacy** (the closing acknowledgement gate), and **Thermodynamic Honesty** (every figure is a stored measurement, not an estimate generated for the message).
+
+Note also the register. The task says "needs a permit before you touch it," not "per §6.07(b), trees exceeding 8 inches DBH require a permit prior to removal." Legal language remains available in the citation; the primary communication is in the language of the person doing the work. This follows from Human Primacy — the system serves the field worker, not the legal system.
+
+---
+
+## 5. Bugs Found by Axiom-Grounded Testing
+
+Each bug below was invisible to a functional specification and surfaced only by asking whether an axiom was being honored.
+
+**Bug 1 — Invisible data (Citation Integrity violation).** The status value `complete` carried much of the best ordinance data but was absent from the accepted-values filter. Verified regulations were silently dropped. Hiding verified data is a Citation Integrity failure regardless of whether the code "worked."
+*Fix:* rank by status (validated → complete → processed → raw) rather than filtering on a single accepted value.
+
+**Bug 2 — False negatives (Mycelial Connectivity violation).** Municipalities accumulated duplicate ordinance records across repeated ingest runs, and the most recent record was not always the one carrying extracted provisions. Betting on a single record produced false negatives — the dangerous direction, since a false negative means a crew cutting a protected tree.
+*Fix:* walk best-first across candidate ordinances, stopping at the first real trigger.
+
+**Bug 3 — False permit requirements (Intrinsic Value violation).** Threshold-only logic flagged nuisance and invasive species as protected. Demanding a permit to remove an invasive inverts the axiom: it defends the wrong organism and trains users to dismiss the alert.
+*Fix:* an explicit `excepted_species` list checked before any threshold comparison.
+
+**Bug 4 — Implausible cooling figure (Thermodynamic Honesty violation).** The energy coefficient produced a cooling benefit far below any published per-tree average. No test asserted a range, so nothing failed — but the number was not defensible, which is the only test Thermodynamic Honesty recognizes.
+*Fix:* recalibrated against the ISA-standard per-tree average.
+
+---
+
+## 6. Caveats
+
+Stated plainly, because a case study that hides its open questions violates the axiom it is documenting.
+
+**The permit trigger is broader than the law may require.** The `recommended` rule fires on *any* assessor-recommended action. In the proof above, the assessor recommended light pruning and soil work — not removal. We do not know whether Liberty Hill requires a permit for light pruning on a protected tree. The task may therefore be over-triggering. Erring toward over-notification is the safer direction for tree protection, but it is not the same as being correct, and resolving it requires per-jurisdiction encoding of which activities trigger permits.
+
+**The cooling coefficient may still be low.** The original value (0.015) was clearly wrong and has been corrected; the current output of 72 kWh/year is consistent with the ISA per-tree average. It may nonetheless remain low relative to i-Tree modeling for a canopy of this size, which incorporates regional leaf-area density and building-proximity effects the current engine does not. The figure is defensible, not final.
+
+---
+
+## 7. The Reusable Pattern: Axiom-as-Test-Oracle
+
+Conventional testing compares behavior against a specification: given input X, assert output Y. This catches deviations from intent but is silent whenever the intent itself is wrong — and it never fires when a number is merely implausible, or when verified data is quietly dropped, or when a correct threshold protects the wrong organism. Every bug in Section 5 passed its functional tests.
+
+An axiom is a different kind of oracle. It is not derived from what we decided the system should do; it is derived from how living systems behave. That gives it authority independent of the specification, which is precisely what makes it able to falsify one.
+
+The method has four steps:
+
+1. **Derive the axiom from biology.** Not from product requirements. Mature trees compound rather than depreciate; ecosystems have carrying limits; mycelial networks isolate nothing. These are observations, not preferences.
+2. **Encode the axiom as a standing constraint.** Not as a test case, which asserts one input-output pair, but as a property the system must satisfy for every input: no fabricated metrics, no destructive updates, no unsourced verdict.
+3. **Observe violations as bugs.** When output contradicts an axiom, that is a defect even if every functional test passes and no user has complained. The implausible cooling figure was a bug by this standard and by no other.
+4. **Fix so that enforcement strengthens.** Repair the instance, then make the class of violation harder to reproduce. Bug 1 did not add `complete` to a list of accepted values; it replaced filtering with ranking, so no future status value can be silently dropped. Bug 3 did not special-case one species; it introduced an exception list checked before every threshold comparison.
+
+For contributors to openarbor.org: when adding a feature, name the axiom it must not violate before writing the implementation, and encode that axiom as a constraint the feature is checked against. The axiom will find defects your specification cannot see. That is the whole of the pattern.
+
+---
+
+## 8. Conclusion
+
+Seven axioms, two features, four bugs found by axiom-grounded testing that functional testing missed. No separate ethics layer exists in this platform — the constraints shaped the entity relationships, and the platform inherited both its ethical grounding and its competitive differentiation from the same source.
+
+Trees are not depreciating assets. Encoding that as an enforced constraint rather than a marketing claim changes what the software does.
+
+---
+
+*Licensed CC BY 4.0. Cite as: Steward, G. (2026). STIM Protocol Reference Implementation. DOI 10.5281/zenodo.21297458*
