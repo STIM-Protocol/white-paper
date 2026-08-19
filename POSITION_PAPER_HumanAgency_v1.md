@@ -107,4 +107,4 @@ Humans decide what roots.
 ---
 
 *George Steward is a former CW2, U.S. Army 7th Special Forces Group (Airborne), precision arborist, and environmental scientist. He started working trees at twelve years old in Alabama and never fully stopped. He is the founder of STIM Protocol, Arboracle, and Veraculum.*
-*george@soilgrower.com | veraculum.ai | myceliate.us | github.com/STIM-Protocol*
+*george@soilgrower.com | arboracle.app | myceliate.us | github.com/STIM-Protocol*
