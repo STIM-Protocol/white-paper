@@ -1,7 +1,7 @@
 # STIM Protocol — White Paper
 
 **Stasis Through Inferred Memory**
-Version: v7.0011 | Status: Release Candidate | License: CC BY 4.0
+Version: v7.0011 | Status: Release Candidate (archived on Zenodo July 10, 2026; DOI registration does not constitute peer review) | License: CC BY 4.0
 
 ---
 
@@ -76,13 +76,13 @@ white-paper/
 | [stim-guard](https://github.com/STIM-Protocol/stim-guard) | Axiom validator — reference implementation |
 | [stim-core](https://github.com/STIM-Protocol/stim-core) | Core protocol definitions |
 | [white-paper](https://github.com/STIM-Protocol/white-paper) | This repo — manuscript and versioning |
-| [gpd-framework](https://github.com/STIM-Protocol/gpd-framework) | Governance and policy definitions |
+| [gpd-framework](https://github.com/STIM-Protocol/gpd-framework) | Integration specification for PSI's Get Physics Done (GPD) physics engine |
 
 ---
 
 ## Governance
 
-STIM follows Elinor Ostrom's polycentric governance model. No single authority controls the protocol. Amendments require formal proposal, cross-stakeholder review, 30-day comment period, and consensus merge.
+The white paper proposes Elinor Ostrom's polycentric governance model for the protocol. This model is not yet operating: no amendment board, steward council, or cross-stakeholder review process is currently established. Today the project is an open research initiative founded by George Steward. It invites independent criticism, reproducible evaluation, and community contribution. Issues, proposals, and contributions are handled through the standard GitHub workflow in each repository.
 
 ---
 
@@ -93,4 +93,4 @@ Share and adapt freely with attribution.
 
 ---
 
-*STIM Protocol is fully open source. Contributions, critiques, and forks are welcome.*
+*STIM Protocol is openly published (CC BY 4.0 for the paper; see each implementation repository for its code license). Contributions, critiques, and forks are welcome.*

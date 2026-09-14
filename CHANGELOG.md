@@ -1,3 +1,15 @@
+## Errata — September 2026 (documentation corrections, no protocol change)
+
+- ERR-001: Resolved `2026.XXXXX` citation placeholder in v7.0011 references to the published Takahashi & Hayashi record (Springer LNCS / arXiv:2602.05463). Cosmetic bibliographic fix.
+- ERR-002: Disclosed license-description conflict for stim-guard (paper said MIT; repository metadata and PyPI distribution say Apache-2.0). No grant changed.
+- ERR-003: Clarified Zenodo record 10.5281/zenodo.21297458 archives the v7.0011 Release Candidate; DOI registration is not peer review.
+- ERR-004: README governance section now distinguishes the proposed Ostrom-style governance model from currently operating roles.
+- ERR-005: Replaced ambiguous "fully open source" phrasing with license-accurate wording.
+
+Details: ERRATA.md. Historical versions unchanged.
+
+---
+
 ## v7.0011 — July 2026
 **Release Candidate: Phase 0 Foundation Lock + Substrate-Scoped Loop 1 + Zenodo DOI**
 
