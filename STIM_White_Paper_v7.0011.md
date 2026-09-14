@@ -211,7 +211,7 @@ Axiom amendments require supermajority (5 of 7 axioms unaffected by the proposed
 
 All axiom validation logic is deterministic and versioned:
 - Axiom definitions: this document, git-tagged at v7.0011
-- Constraint engine: `stim-guard` repo, MIT license
+- Constraint engine: `stim-guard` repo. License note: this section previously described the stim-guard implementation code as MIT-licensed; the stim-guard repository's package metadata and published distributions state Apache-2.0. Recorded in ERRATA.md; the license grant itself is unchanged.
 - Test suite: all CI checks public, reproducible from `make test`
 - CoA schema: JSON-LD spec at stim-protocol.org/coa/v1 (forthcoming)
 - Commit hashes at publication: see CHANGELOG.md in each repo
@@ -276,7 +276,7 @@ Simard, S. (2021). *Finding the Mother Tree: Discovering the Wisdom of the Fores
 
 Steward, G. (2026). *STIM Protocol v7.0011: Stasis Through Inferred Memory*. Zenodo. https://doi.org/10.5281/zenodo.21297458
 
-Takahashi, Y., & Hayashi, K. (2026). Thermodynamic limits of physical intelligence: Epiplexity and empowerment bounds for substrate-level AI containment. *arXiv preprint*. https://arxiv.org/abs/2026.XXXXX
+Takahashi, Y., & Hayashi, K. (2026). Thermodynamic limits of physical intelligence. *Artificial General Intelligence (AGI 2026), Lecture Notes in Computer Science*, Springer, pp. 339–354. https://doi.org/10.1007/978-3-032-33195-3_24 (preprint: https://arxiv.org/abs/2602.05463)
 
 von Neumann, J. (1966). *Theory of Self-Reproducing Automata*. University of Illinois Press.
 
